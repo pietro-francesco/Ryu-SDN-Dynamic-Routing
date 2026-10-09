@@ -11,7 +11,6 @@ raggiungere ogni switch.
 4. Controlla i suoi vicini e calcola new_distance = distanza corrente + costo del link.
 5. Se trova un percorso più economico, aggiorna distances e registra in previous da quale nodo è arrivato.
 6. Raggiunta la destinazione, usa previous a ritroso per ricostruire il percorso e poi lo inverte.
-
 """
 
 def dijkstra(graph, source, destination):
